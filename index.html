@@ -1,73 +1,1390 @@
 <!DOCTYPE html>
-<html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<html lang="english">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Keith's Website</title>
-    <!-- Using the latest rendering mode for IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-<link rel="canonical" href="">
-        <meta name="author" content="Keith Davey" />
-
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="Keith's Website" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Keith's Website"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="Keith's Website"/>
-
-
-
-    <!-- Bootstrap -->
-        <link rel="stylesheet" href="/theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
-
-    <link href="/theme/css/pygments/monokai.css" rel="stylesheet">
-    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
-
-
-
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="" />
+    <meta name="author" content="Keith Davey" />
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="selected"><a href="/">Home</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="/">Keith's Website</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">Apr 08, 2020</h4>
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="/" class="navbar-brand">
-Keith's Website            </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                        <li >
-                            <a href="/category/portfolio-post.html">Portfolio post</a>
-                        </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+            <article class="post">
+                <h2 class="title">
+                    <a href="/my-third-post.html" rel="bookmark" title="Permanent Link to &quot;My Third Post&quot;">My Third Post</a>
+                </h2>
+
+                
+                
+
+                <style type="text/css">/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI escape sequences */
+/* The color values are a mix of
+   http://www.xcolors.net/dl/baskerville-ivorylight and
+   http://www.xcolors.net/dl/euphrasia */
+.ansi-black-fg {
+  color: #3E424D;
+}
+.ansi-black-bg {
+  background-color: #3E424D;
+}
+.ansi-black-intense-fg {
+  color: #282C36;
+}
+.ansi-black-intense-bg {
+  background-color: #282C36;
+}
+.ansi-red-fg {
+  color: #E75C58;
+}
+.ansi-red-bg {
+  background-color: #E75C58;
+}
+.ansi-red-intense-fg {
+  color: #B22B31;
+}
+.ansi-red-intense-bg {
+  background-color: #B22B31;
+}
+.ansi-green-fg {
+  color: #00A250;
+}
+.ansi-green-bg {
+  background-color: #00A250;
+}
+.ansi-green-intense-fg {
+  color: #007427;
+}
+.ansi-green-intense-bg {
+  background-color: #007427;
+}
+.ansi-yellow-fg {
+  color: #DDB62B;
+}
+.ansi-yellow-bg {
+  background-color: #DDB62B;
+}
+.ansi-yellow-intense-fg {
+  color: #B27D12;
+}
+.ansi-yellow-intense-bg {
+  background-color: #B27D12;
+}
+.ansi-blue-fg {
+  color: #208FFB;
+}
+.ansi-blue-bg {
+  background-color: #208FFB;
+}
+.ansi-blue-intense-fg {
+  color: #0065CA;
+}
+.ansi-blue-intense-bg {
+  background-color: #0065CA;
+}
+.ansi-magenta-fg {
+  color: #D160C4;
+}
+.ansi-magenta-bg {
+  background-color: #D160C4;
+}
+.ansi-magenta-intense-fg {
+  color: #A03196;
+}
+.ansi-magenta-intense-bg {
+  background-color: #A03196;
+}
+.ansi-cyan-fg {
+  color: #60C6C8;
+}
+.ansi-cyan-bg {
+  background-color: #60C6C8;
+}
+.ansi-cyan-intense-fg {
+  color: #258F8F;
+}
+.ansi-cyan-intense-bg {
+  background-color: #258F8F;
+}
+.ansi-white-fg {
+  color: #C5C1B4;
+}
+.ansi-white-bg {
+  background-color: #C5C1B4;
+}
+.ansi-white-intense-fg {
+  color: #A1A6B2;
+}
+.ansi-white-intense-bg {
+  background-color: #A1A6B2;
+}
+.ansi-default-inverse-fg {
+  color: #FFFFFF;
+}
+.ansi-default-inverse-bg {
+  background-color: #000000;
+}
+.ansi-bold {
+  font-weight: bold;
+}
+.ansi-underline {
+  text-decoration: underline;
+}
+/* The following styles are deprecated an will be removed in a future version */
+.ansibold {
+  font-weight: bold;
+}
+.ansi-inverse {
+  outline: 0.5px dotted;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  position: relative;
+  overflow: visible;
+}
+div.cell:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: transparent;
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
+  border-color: #ababab;
+}
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #42A5F5;
+}
+@media print {
+  div.cell.selected,
+  div.cell.selected.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+}
+.edit_mode div.cell.selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #66BB6A;
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell > div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area > div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area > div.highlight > pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the <head> if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  /* Note that this should set vertical padding only, since CodeMirror assumes
+       that horizontal padding will be set on CodeMirror pre */
+  padding: 0.4em 0;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. This sets horizontal padding only,
+    use .CodeMirror-lines for vertical */
+  padding: 0 0.4em;
+  border: 0;
+  border-radius: 0;
+}
+.CodeMirror-cursor {
+  border-left: 1.4px solid black;
+}
+@media screen and (min-width: 2138px) and (max-width: 4319px) {
+  .CodeMirror-cursor {
+    border-left: 2px solid black;
+  }
+}
+@media screen and (min-width: 4320px) {
+  .CodeMirror-cursor {
+    border-left: 4px solid black;
+  }
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+div.output_area .mglyph > img {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 1px 0 1px 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+.rendered_html ul:not(.list-inline),
+.rendered_html ol:not(.list-inline) {
+  padding-left: 2em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+
+
+
+.rendered_html pre,
+
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+
+.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+
+.rendered_html * + .alert {
+  margin-top: 1em;
+}
+[dir="rtl"] 
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell > div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.rendered .rendered_html tr,
+.text_cell.rendered .rendered_html th,
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.text_cell .dropzone .input_area {
+  border: 2px dashed #bababa;
+  margin: -1px;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+</style>
+<style type="text/css">.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="This-is-a-small-portfolio-of-code-I-have-written-in-Python-as-various-exercises-in-the-last-year.">This is a small portfolio of code I have written in Python as various exercises in the last year.<a class="anchor-link" href="#This-is-a-small-portfolio-of-code-I-have-written-in-Python-as-various-exercises-in-the-last-year.">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="First-of-all-is-a-Tic-Tac-Toe-game.">First of all is a Tic Tac Toe game.<a class="anchor-link" href="#First-of-all-is-a-Tic-Tac-Toe-game.">&#182;</a></h2><p>Here, each player is asked in sequence what coordinates they want to place their mark, with 1,1 and 3,3 corresponding to the top left and bottom right corners respectively. After each player makes their choice, the board is shown. If a player gets 3 in a row, the game states the winner and exits the program. If the player makes an invalid move (e.g., in the same spot as another mark), the program asks them to go again.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">checkEqual</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+   <span class="k">return</span> <span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">==</span> <span class="n">lst</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">winCheck</span><span class="p">(</span><span class="n">game</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">game</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">checkEqual</span><span class="p">(</span><span class="n">game</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="ow">is</span> <span class="kc">True</span> <span class="ow">and</span> <span class="n">game</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39; &#39;</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Player </span><span class="si">{</span><span class="n">game</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> is the winner.&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">checkEqual</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">game</span><span class="p">])</span> <span class="ow">is</span> <span class="kc">True</span> <span class="ow">and</span> <span class="n">game</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39; &#39;</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Player </span><span class="si">{</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">game</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> is the winner.&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">game</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39; &#39;</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">game</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">game</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">game</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="ow">or</span> <span class="n">game</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="n">game</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">game</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
+                <span class="k">return</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Player </span><span class="si">{</span><span class="n">game</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2"> is the winner.&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">printGame</span><span class="p">(</span><span class="n">inp</span><span class="p">):</span>
+   <span class="n">vlines</span> <span class="o">=</span> <span class="mi">3</span><span class="o">*</span><span class="s1">&#39;|   &#39;</span> <span class="o">+</span> <span class="s1">&#39;|&#39;</span>
+   <span class="n">X</span> <span class="o">=</span> <span class="p">[</span><span class="n">vlines</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span><span class="n">vlines</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span><span class="n">vlines</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+   <span class="n">hlines</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="s1">&#39;--- &#39;</span>
+   <span class="nb">print</span><span class="p">(</span><span class="n">hlines</span><span class="p">)</span>
+   <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+      <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+         <span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">insert</span><span class="p">((</span><span class="mi">2</span><span class="o">*</span><span class="n">j</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">game</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+      <span class="nb">print</span><span class="p">(</span><span class="n">hlines</span><span class="p">)</span>
+
+<span class="n">game</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">],[</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">],[</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">]]</span>
+<span class="n">markers</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="s1">&#39;O&#39;</span><span class="p">]</span>
+<span class="n">Running</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">while</span> <span class="n">Running</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">):</span>
+        <span class="n">pcoord</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter coords for placement of marker (row,col): &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">game</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">pcoord</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">pcoord</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39; &#39;</span><span class="p">:</span>
+            <span class="n">printGame</span><span class="p">(</span><span class="n">game</span><span class="p">)</span>
+            <span class="n">pcoord</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter coords for placement of marker (row,col): &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="n">game</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">pcoord</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">pcoord</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">markers</span><span class="p">[</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">winCheck</span><span class="p">(</span><span class="n">game</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">winCheck</span><span class="p">(</span><span class="n">game</span><span class="p">))</span>
+            <span class="n">printGame</span><span class="p">(</span><span class="n">game</span><span class="p">)</span>
+            <span class="n">Running</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="k">break</span>
+        <span class="k">elif</span> <span class="s1">&#39; &#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">game</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="n">game</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">game</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Draw!&quot;</span><span class="p">)</span>
+            <span class="n">printGame</span><span class="p">(</span><span class="n">game</span><span class="p">)</span>
+            <span class="n">Running</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">printGame</span><span class="p">(</span><span class="n">game</span><span class="p">)</span>
+</pre></div>
+
     </div>
-</div> <!-- /.navbar -->
+</div>
+</div>
 
-<!-- Banner -->
-<!-- End Banner -->
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The program works best in IDLE where it was designed, but the concept can be seen in this notebook.</p>
 
-<!-- Content Container -->
-<div class="container">
-    <div class="row">
-        <div class="col-sm-9">
-            <article>
-                <h2><a href="/my-second-post.html">My Second Post</a></h2>
-                <div class="summary"><h1>Pelican - Part 2</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Below-is-a-game-of-Hangman">Below is a game of Hangman<a class="anchor-link" href="#Below-is-a-game-of-Hangman">&#182;</a></h2><p>The game capitalises the letter you put in and checks it against the word it chooses randomly from a dictionary text file.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">choice</span>
+
+<span class="k">def</span> <span class="nf">hangmanInit</span><span class="p">():</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dictionary.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">open_dict</span><span class="p">:</span>
+        <span class="n">dicti</span> <span class="o">=</span> <span class="n">open_dict</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+    <span class="n">randword</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">choice</span><span class="p">(</span><span class="n">dicti</span><span class="p">))</span>
+
+    <span class="n">pword</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">randword</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)):</span>
+        <span class="n">pword</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39; _&#39;</span><span class="p">)</span>
+    <span class="n">pword</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pword</span><span class="p">)</span>
+
+    <span class="n">guessed</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">lives</span> <span class="o">=</span> <span class="mi">6</span>
+
+    <span class="k">return</span><span class="p">(</span><span class="n">guessed</span><span class="p">,</span> <span class="n">lives</span><span class="p">,</span> <span class="n">pword</span><span class="p">,</span> <span class="n">randword</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">hangmanDraw</span><span class="p">(</span><span class="n">lives</span><span class="p">):</span>
+    <span class="n">hang</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;|   |&#39;</span> <span class="p">,</span> <span class="s1">&#39;|   |&#39;</span> <span class="p">,</span> <span class="s1">&#39;|    &#39;</span> <span class="p">,</span> <span class="s1">&#39;|      &#39;</span> <span class="p">,</span> <span class="s1">&#39;|       &#39;</span><span class="p">,</span> <span class="s1">&#39;|     &#39;</span><span class="p">,</span><span class="s1">&#39;|      &#39;</span><span class="p">,</span><span class="s1">&#39;|&#39;</span><span class="p">,</span><span class="s1">&#39;|_________&#39;</span><span class="p">]</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hang</span><span class="p">)):</span>
+            <span class="n">hang</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">hang</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="n">lives</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="n">hang</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;O&#39;</span>
+        <span class="k">if</span> <span class="n">lives</span> <span class="o">&lt;=</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="n">hang</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">5</span><span class="p">],</span> <span class="n">hang</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;|&#39;</span><span class="p">,</span><span class="s1">&#39;|&#39;</span>
+            <span class="n">hang</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="mi">5</span><span class="p">],</span> <span class="n">hang</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;|&#39;</span><span class="p">,</span><span class="s1">&#39;|&#39;</span>
+            <span class="k">if</span> <span class="n">lives</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">:</span>
+                <span class="n">hang</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span><span class="n">hang</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="s1">&#39;/&#39;</span>
+                <span class="k">if</span> <span class="n">lives</span> <span class="o">&lt;=</span> <span class="mi">2</span><span class="p">:</span>
+                    <span class="n">hang</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">hang</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span>
+                    <span class="k">if</span> <span class="n">lives</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+                        <span class="n">hang</span><span class="p">[</span><span class="mi">7</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span><span class="n">hang</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="s1">&#39;/&#39;</span>
+                        <span class="k">if</span> <span class="n">lives</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                            <span class="n">hang</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="mi">5</span><span class="p">],</span><span class="n">hang</span><span class="p">[</span><span class="mi">7</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hang</span><span class="p">)):</span>
+            <span class="n">hang</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">hang</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hang</span><span class="p">)):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">hang</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">hangmanInit</span><span class="p">()</span>
+<span class="n">guessed</span><span class="p">,</span> <span class="n">lives</span><span class="p">,</span> <span class="n">pword</span><span class="p">,</span> <span class="n">randword</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The word to guess has </span><span class="si">{</span><span class="nb">int</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">randword</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2"> letters.&quot;</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">pword</span> <span class="o">!=</span> <span class="n">randword</span> <span class="ow">and</span> <span class="n">lives</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">guessed</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">guessed</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The letters you have already guessed are as follows:</span><span class="se">\n</span><span class="si">{</span><span class="n">guessed</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">plet</span> <span class="o">=</span> <span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter a letter to guess: &quot;</span><span class="p">))</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">plet</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">plet</span><span class="o">.</span><span class="n">isupper</span><span class="p">()</span> <span class="ow">is</span> <span class="kc">False</span> <span class="ow">or</span> <span class="n">plet</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="ow">in</span> <span class="n">guessed</span><span class="p">:</span>
+        <span class="n">plet</span> <span class="o">=</span> <span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter a letter to guess: &quot;</span><span class="p">))</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+    <span class="n">guessed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">plet</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+
+    <span class="k">if</span> <span class="n">plet</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="ow">in</span> <span class="n">randword</span><span class="p">:</span>
+        <span class="n">indices</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">randword</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">plet</span><span class="o">.</span><span class="n">upper</span><span class="p">()]</span>
+        <span class="n">pword</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pword</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">)):</span>
+            <span class="n">pword</span><span class="p">[</span><span class="n">indices</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span> <span class="o">=</span> <span class="n">plet</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+        <span class="n">pword</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pword</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">lives</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Incorrect, you have </span><span class="si">{</span><span class="n">lives</span><span class="si">}</span><span class="s1"> choices left.&#39;</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pword</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">hangmanDraw</span><span class="p">(</span><span class="n">lives</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">pword</span> <span class="o">==</span> <span class="n">randword</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Congratulations, you guessed the word!&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">lives</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2"> You have run out of lives.&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">pword</span> <span class="o">==</span> <span class="n">randword</span> <span class="ow">or</span> <span class="n">lives</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The word was </span><span class="si">{</span><span class="n">randword</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">retry</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Would you like to try again? Type Y for yes or N for no: &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">retry</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;Y&#39;</span><span class="p">:</span>
+            <span class="n">X</span> <span class="o">=</span> <span class="n">hangmanInit</span><span class="p">()</span>
+            <span class="n">guessed</span><span class="p">,</span> <span class="n">lives</span><span class="p">,</span> <span class="n">pword</span><span class="p">,</span> <span class="n">randword</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The word to guess has </span><span class="si">{</span><span class="nb">int</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">randword</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2"> letters.&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">retry</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">!=</span> <span class="s1">&#39;N&#39;</span><span class="p">:</span>
+            <span class="k">while</span> <span class="n">retry</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">!=</span> <span class="s1">&#39;N&#39;</span><span class="p">:</span>
+                <span class="n">retry</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Would you like to try again? Type Y for yes or N for no: &quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+ 
+
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/my-third-post.html">posted at 13:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/portfolio-post.html" rel="tag">Portfolio Post</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/jupyter.html" class="tags">jupyter</a>
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="/tag/markdown.html" class="tags">markdown</a>
+                    &nbsp;<a href="/tag/pelican.html" class="tags">pelican</a>
+                </div>
+            </article>            <h4 class="date">Apr 03, 2020</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/my-second-post.html" rel="bookmark" title="Permanent Link to &quot;My Second Post&quot;">My Second Post</a>
+                </h2>
+
+                
+                
+
+                <h1>Pelican - Part 2</h1>
 <h2>Writing Articles With Markdown</h2>
 <p>Whenever we create new content for our site it will always follow the same basic process:</p>
 <ul>
@@ -76,79 +1393,357 @@ Keith's Website            </a>
 <li>Write the content</li>
 <li>Regenerate the website</li>
 </ul>
-<p>To learn how to create content we are …</p>
-                    <a class="btn btn-default btn-xs" href="/my-second-post.html">more ...</a>
+<p>To learn how to create content we are going to write multiple article posts. Let's begin by creating a new markdown file called <em>first_post.md</em> in the <em>content</em> folder. A markdown file is simply a plain .txt file with the extension changed to .md. If you are unsure about Markdown that's OK for now. We will discuss it shortly.</p>
+<div class="highlight"><pre><span></span><span class="err">blog</span>
+<span class="err">└── source</span>
+<span class="err">     ├── content</span>
+<span class="err">     |   └── first_post.md (new)</span>
+<span class="err">     ├── plugins</span>
+<span class="err">     └── theme</span>
+</pre></div>
+
+
+<p>Next we will define the metadata for first_post.md. Metadata is information about the article post. It gives Pelican direction on how to generate the static website files and some of the metadata will be displayed within the webpage itself. Open the blank <em>first_post.md</em> and add the following lines:</p>
+<div class="highlight"><pre><span></span>Title: My First Post
+Author: Pat McCavana
+Date: 2020-03-13 12:30
+Category: Portfolio Post
+Tags: python, markdown, pelican
+Slug: my-first-post
+
+The article content goes here
+</pre></div>
+
+
+<p>Metadata should always appear at the top of the file. Each piece of metadata must be on a new line and follows the format metadata_keyword: data. Here's a list of the most common keywords and their usage:</p>
+<p>Keyword | Required? | Usage
+--- | --- | --- |
+Title | Yes| title of the blog post
+Author | Yes | author of the blog post
+Date | Yes | published date in the format YYYY-mm-dd hh:mm
+Modified | No | last edit date in the format YYYY-mm-dd hh:mm
+Category | Yes | general topic of the blog post
+Tags | No | topics covered in the blog post separated by a comma
+Summary | No | brief one or two sentence synopsis of the blog post
+Slug | No | name of the .html file to be generated. If none is defined the slug will be the post's title separated by "-" symbols
+Status | No | choose one of published, draft or hidden</p>
+<p>Regenerate the website to view the result. Our first post is now showing on the main page. Take a moment to browse the post and consider how the metadata we supplied affected the webpage that was generated.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>Now we will use Markdown to write our post's content. Markdown is a language written for non-programmers that uses symbols to represent HTML. We apply markdown to a plain text file with the extension .md to do things like change the style (e.g. bold, italics), insert pictures and create links. When we use Pelican to generate our website it will read the markdown file and convert it to HTML.</p>
+<p>Anyone can learn the basics of Markdown in about 10 minutes. The language's syntax is very well documented on the web so we will not discuss it in full detail here. Instead we will review a few sample posts to understand the basics which will include examples specific to Pelican. I recommend you check out either the interactive tutorial at <markdownguide.org> or Adam Pritchard's <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> on Github before moving on with the tutorial.</p>
+<p>Create a file called <em>markdown_examples_1.md</em> in the same location as <em>first_post.md</em>. Insert the following text:</p>
+<div class="highlight"><pre><span></span>Title: Markdown Examples Part 1
+Author: Pat McCavana
+Date: 2019-01-02 12:00
+Category: Introduction
+Tags: markdown
+
+Basic markdown examples are shown below
+
+This text is <span class="gs">**bold**</span>
+This text is <span class="ge">*italic*</span>
+This text is <span class="gs">**_italic and bold_**</span>
+
+<span class="gu">###</span> An h3 heading...
+
+A list with bullets:
+<span class="ge">* Bullet a</span>
+<span class="ge">*</span> Bullet b
+<span class="k">*</span> Bullet c
+
+Here&#39;s a blockquote:
+
+Here&#39;s a table:
+
+| Column1 | Column 2 | Column 3
+|---|---|---|
+| Value 1 | Value 2 | Value 3 |
+| Value 4 | Value 5 | Value 6 |
+| Value 7 | Value 8 | Value 9 |
+</pre></div>
+
+
+<p>Now generate the website and review our post.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>The post we wrote shows the basics of how to use Markdown. When the website was generated the Markdown was converted into HTML. HTML elements can be used when writing a markdown file but the markdown syntax is much simpler to write.</p>
+<p>Let's prepare to write our second post. Download the python icon image we will be using by clicking on this link. Copy the image to the content folder as shown below.</p>
+<div class="highlight"><pre><span></span><span class="err">blog</span>
+<span class="err">└── source</span>
+<span class="err">     ├── content</span>
+<span class="err">     |   └── first_post.md</span>
+<span class="err">     |   └── markdown_example_1.md</span>
+<span class="err">     |   └── python_icon.png (new)</span>
+<span class="err">     ├── plugins</span>
+<span class="err">     └── theme</span>
+</pre></div>
+
+
+<p>Create a file called <em>markdown_examples_2.md</em> in the same location as <em>first_post.md</em> and <em>markdown_examples_1.md</em>. Insert the following text:</p>
+<div class="highlight"><pre><span></span>Title: Markdown Examples Part 2
+Author: Pat McCavana
+Date: 2020-03-14 13:00
+Category: Intoduction
+Tags: markdown
+
+Images can be displayed in Markdown.  
+Text within the square brackets is the image name. The path to the image goes between the round brackets.  
+The {static} tag indicates the image is stored in the content folder. This setting can be changed in pelicanconf.py.
+
+![<span class="nt">python logo</span>](<span class="na">{static}/python_icon.png</span>)
+
+Links to downloadable content such as PDF files are written similarly to image files but with no ! symbol at the beginning.
+
+[<span class="nt">Pelican Documenation</span>](<span class="na">{static}/pelican.pdf</span>)
+
+A link to a different blog post on our website is written exactly the same.  
+Text within the square brackets can be clicked on to travel to the website between the curly brackets.
+The {filename} tag indicates we want to follow the link to a webpage rather than the static file it was generated from.
+
+[<span class="nt">First Post</span>](<span class="na">{filename}/first_post.md</span>)
+
+Or we can link to another external website by supplying the web address.
+
+[<span class="nt">Python Package Index</span>](<span class="na">https://pypi.org</span>)
+Generate the website and review the result.
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>For our final blog post we will write a Python code block. Pelican displays code blocks using the popular Pygments snytax highlighter. You will recall we setup the Pygments theme 'monokai' in pelicanconf.py earlier. Also, Pygments is not limited to only Python. It can handle almost any language you can think of. Check out the list of supported languages here.</p>
+<p>Create a file called <em>markdown_examples_3.md</em> in the <em>content</em> folder. Insert the following text:</p>
+<div class="highlight"><pre><span></span>Title: Markdown Examples Part 3
+Author: Matthew Devaney
+Date: 2019-01-04 12:00
+Category: blogging
+Tags: markdown, pygments
+
+Code blocks are preceeded by an indent, three : symbols and the name of the language.  
+All of the following code will be highlighted while the text is indented.
+
+    :::python3
+    def do_twice(func):
+    def wrapper_do_twice(*args, **kwargs):
+        return func(*args, **kwargs).lower()
+    return wrapper_do_twice
+
+    <span class="ni">@do_twice</span>
+    def say_whee(some_text):
+        print(some_text)
+
+    x = &#39;Whee!&#39;
+    say_whee(x)
+</pre></div>
+
+
+<p>Generate the site one last time and review the code block.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<h2>Writing Pages vs. Articles</h2>
+<p>Written content in Pelican takes one of two forms: articles or pages. Articles are frequently updated content that can be ordered by date. Our blog posts are all examples of articles. Pages are more permanent in nature and are not associated with dates such as an about me page. They only appear on the navigation bar of our blog and not the list of recent posts. We are going to make an about me page for our blog.</p>
+<p>Pelican determines which content is pages vs. articles based on where it is located in the filesystem. Make a new folder called pages within the content folder and then create a new markdown file about_me as shown below.</p>
+<div class="highlight"><pre><span></span><span class="err">blog</span>
+<span class="err">└── source</span>
+<span class="err">     └── content</span>
+<span class="err">          └── pages</span>
+<span class="err">              └── about_me.md</span>
+</pre></div>
+
+
+<p>Page content is written exactly the same as articles, however, less metadata is required. We do not need to include a category or tags. Date and modified are also not necessary but we will still include them in case we want to know this information in the future.</p>
+<div class="highlight"><pre><span></span>title: About Me
+date: 2019-02-01
+modified: 2019-02-01
+status: published
+
+My name is Pat McCavana.  I work as an medical physicst in Dublin, Ireland.  My interests are mainly around dosimetry in work and orienteering outside.
+</pre></div>
+
+
+<p>Generate the website and navigate to the about me page to view the result of our work.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>Keeping The Content Folder Organized
+A small content-oriented website such as our blog can quickly grow into a large website as time goes on. Organizing the file structure of our website in a logical manner will help us minimize the difficulty of maintaining our blog, leaving us more time to spend productively on creating new content. Look at the diagram below which shows our current setup of the content folder. A flat file structure like this one might be fine to use for a blog with 10 posts but it would become significantly harder after 100 posts.</p>
+<div class="highlight"><pre><span></span><span class="err">blog</span>
+<span class="err">└── source</span>
+<span class="err">     └── content</span>
+<span class="err">          └── pages</span>
+<span class="err">          |   └── about_me.md</span>
+<span class="err">          └── first_post.md</span>
+<span class="err">          └── markdown_example_1.md</span>
+<span class="err">          └── markdown_example_2.md</span>
+<span class="err">          └── markdown_example_3.md</span>
+<span class="err">          └── pelican.pdf</span>
+<span class="err">          └── python_icon.png</span>
+</pre></div>
+
+
+<p>We are going to create a file-structure that is organized by content type instead. Create a folder folder named articles in the content folder. Move the article files into the folder exactly as shown below.</p>
+<div class="highlight"><pre><span></span><span class="err">blog</span>
+<span class="err">└── source</span>
+<span class="err">     └── content</span>
+<span class="err">          └── articles</span>
+<span class="err">          |   └── first_post.md</span>
+<span class="err">          |   └── markdown_example_1.md</span>
+<span class="err">          |   └── markdown_example_2.md</span>
+<span class="err">          |   └── markdown_example_3.md</span>
+<span class="err">          └── pages</span>
+<span class="err">          |   └── about_me.md</span>
+<span class="err">          └── pelican.pdf</span>
+<span class="err">          └── python_icon.png</span>
+</pre></div>
+
+
+<p>Pelican expects articles to be located in the content folder by default. To tell Pelican where to find our articles add a new line to pelicanconf.py. The article path is built by combining the PATH and ARTICLE_PATHS variables into a file path.</p>
+<div class="highlight"><pre><span></span> <span class="n">ARTICLE_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;articles&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>We've changed the location of our articles so any links in our blog posts must be manually updated to the new path. Open the file <em>markdown_examples_2.md</em> and change the link to <em>first_post.md</em> as follows:</p>
+<div class="highlight"><pre><span></span> [<span class="nt">First Post</span>](<span class="na">{filename}/articles/first_post.md</span>)
+ ```
+
+Next we will organize our blog&#39;s media files. Create two new folders: img and pdf within the content folder. Place the appropriate files in each folder as shown below.
+
+```windows
+blog
+└── source
+     └── content
+          └── articles
+          |   └── first_post.md
+          |   └── markdown_example_1.md
+          |   └── markdown_example_2.md
+          |   └── markdown_example_3.md
+          └── img
+          |   └── python_icon.png
+          └── pages
+          |   └── about_me.md
+          └── pdf
+              └── pelican.pdf
+</pre></div>
+
+
+<p>Once again we must tell Pelican where to look for the static media files we just moved. Add the following code to pelicanconf.py.</p>
+<div class="highlight"><pre><span></span><span class="n">STATIC_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;img&#39;</span><span class="p">,</span> <span class="s1">&#39;pdf&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Open markdown_examples_2.md and change the path of the static files there as well.</p>
+<div class="highlight"><pre><span></span>![<span class="nt">python logo</span>](<span class="na">{static}/img/python_icon.png</span>)
+[<span class="nt">Pelican Documenation</span>](<span class="na">{static}/pdf/pelican.pdf</span>)
+</pre></div>
+
+
+<p>Lastly, we have the option to define where Pelican should look for our blog's pages. By default Pelican expects them to be in the content/pages folder. It is not necessary to state the path but it is a good practice to do so. Add the following code to pelicanconf.py.</p>
+<div class="highlight"><pre><span></span> <span class="n">PAGE_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;pages&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>The site and check that the changes we made do not raise any errors during the process. Our blog should output in exactly the same manner as before we started making alterations and no changes to the layout or content of our website should be evident.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>Now that we've got the content folder organized let's turn our attention to the file structure that gets output when we generate our site.</p>
+<h2>Defining the URL Structure</h2>
+<p>We should aim to make the file structure of our generated website, and consequently the URL, as simple as possible. Logically constructed URLs that are readable by humans are more likely to be shared and to be successfully indexed by a search engine.</p>
+<p>Let's use the post Markdown Examples 3 as an example. Browse to the post and you will see the URL below. The title of the post is showing as a slug after the domain.</p>
+<div class="highlight"><pre><span></span><span class="err">http://127.0.0.1:8000/markdown-examples-part-3.html.</span>
+</pre></div>
+
+
+<p>We should change the URL to show the content type and date as well. The ARTICLE_URL variable states what should display in the web browser's address bar while the ARTICLE_SAVE_AS variable defines where the article being generated should be output to. Add the following code to pelicanconf.py</p>
+<div class="highlight"><pre><span></span><span class="n">ARTICLE_URL</span> <span class="o">=</span> <span class="s1">&#39;articles/{date:%Y}/{date:%m}/{date:</span><span class="si">%d</span><span class="s1">}/</span><span class="si">{slug}</span><span class="s1">/&#39;</span>
+<span class="n">ARTICLE_SAVE_AS</span> <span class="o">=</span> <span class="s1">&#39;articles/{date:%Y}/{date:%m}/{date:</span><span class="si">%d</span><span class="s1">}/</span><span class="si">{slug}</span><span class="s1">/index.html&#39;</span>
+</pre></div>
+
+
+<p>Generate the webpage after making changes.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+
+
+<p>Now the article URL appears as:</p>
+<div class="highlight"><pre><span></span><span class="err">http://127.0.0.1:8000/articles/2019/01/04/markdown-examples-part-3/</span>
+</pre></div>
+
+
+<p>Go ahead do the same procedure for pages, categories, and tags. Add the following code to pelicanconf.py</p>
+<div class="highlight"><pre><span></span><span class="n">PAGE_URL</span> <span class="o">=</span> <span class="s1">&#39;pages/</span><span class="si">{slug}</span><span class="s1">/&#39;</span>
+<span class="n">PAGE_SAVE_AS</span> <span class="o">=</span> <span class="s1">&#39;pages/</span><span class="si">{slug}</span><span class="s1">/index.html&#39;</span>
+<span class="n">CATEGORY_URL</span> <span class="o">=</span> <span class="s1">&#39;category/</span><span class="si">{slug}</span><span class="s1">&#39;</span>
+<span class="n">CATEGORY_SAVE_AS</span> <span class="o">=</span> <span class="s1">&#39;category/</span><span class="si">{slug}</span><span class="s1">/index.html&#39;</span>
+<span class="n">TAG_URL</span> <span class="o">=</span> <span class="s1">&#39;tag/</span><span class="si">{slug}</span><span class="s1">&#39;</span>
+<span class="n">TAG_SAVE_AS</span> <span class="o">=</span> <span class="s1">&#39;tag/</span><span class="si">{slug}</span><span class="s1">/index.html&#39;</span>
+</pre></div>
+
+
+<p>Generate the blog again and review how the URLs have changed.</p>
+<div class="highlight"><pre><span></span><span class="err">pelican content</span>
+<span class="err">pelican --listen</span>
+</pre></div>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/my-second-post.html">posted at 11:50</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/portfolio-post.html" rel="tag">Portfolio Post</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="/tag/markdown.html" class="tags">markdown</a>
+                    &nbsp;<a href="/tag/pelican.html" class="tags">pelican</a>
+                </div>
+            </article>            <h4 class="date">Apr 03, 2020</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/my-first-post.html" rel="bookmark" title="Permanent Link to &quot;My First Post&quot;">My First Post</a>
+                </h2>
+
+                
+                
+
+                <p>The article content goes here</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/my-first-post.html">posted at 11:40</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/portfolio-post.html" rel="tag">Portfolio Post</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="/tag/markdown.html" class="tags">markdown</a>
+                    &nbsp;<a href="/tag/pelican.html" class="tags">pelican</a>
                 </div>
             </article>
-            <hr/>
-            <article>
-                <h2><a href="/my-first-post.html">My First Post</a></h2>
-                <div class="summary"><p>The article content goes here</p>
-                    <a class="btn btn-default btn-xs" href="/my-first-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+            </footer>
         </div>
-        <div class="col-sm-3" id="sidebar">
-            <aside>
-<!-- Sidebar -->
-<section class="well well-sm">
-  <ul class="list-group list-group-flush">
-
-<!-- Sidebar/Social -->
-<li class="list-group-item">
-  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-  <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="https://twitter.com/mbdevaney"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
-    <li class="list-group-item"><a href="https://github.com/yourekittenme"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
-  </ul>
-</li>
-<!-- End Sidebar/Social -->
-
-<!-- Sidebar/Links -->
-<li class="list-group-item">
-  <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
-  <ul class="list-group" id="links">
-    <li class="list-group-item">
-      <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://wikipedia.org" target="_blank">Wikipedia</a>
-    </li>
-  </ul>
-</li>
-<!-- End Sidebar/Links -->
-  </ul>
-</section>
-<!-- End Sidebar -->            </aside>
-        </div>
+        <div class="clear"></div>
     </div>
-</div>
-<!-- End Content Container -->
-
-<footer>
-   <div class="container">
-      <hr>
-      <div class="row">
-         <div class="col-xs-10">&copy; 2020 Keith Davey
-            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
-            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
-            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
-         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
-      </div>
-   </div>
-</footer>
-<script src="/theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="/theme/js/respond.min.js"></script>
-
-
-
-
 </body>
 </html>
